@@ -33,6 +33,8 @@
     <div class="content">
       <div class="list">
         <div class="item" @click="goRouter">webp/png/jpeg格式转换工具</div>
+        <router-link tag="div" class="item" to="/movie">电影
+        </router-link>
       </div>
     </div>
   </div>

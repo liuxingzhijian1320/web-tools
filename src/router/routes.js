@@ -32,6 +32,11 @@ const routes = [
     name: 'imageTransform',
     component: () => import('../views/image_transform/index.vue'),
   },
+  {
+    path: '/movie',
+    name: 'movie',
+    component: () => import('../views/movie/index.vue'),
+  },
 ];
 
 export default routes;
